@@ -13,20 +13,18 @@
 \thispagestyle{empty}
 
 \title{Annual Report 2006}
-\author{}
+\author{S\'ergio A. de Carvalho Jr.}
 \date{}
 
 \maketitle
 
 \paragraph{Title:}Algorithms for Optimization of Microarray Design
 
-\paragraph{Name:}S\'ergio A. de Carvalho Jr.
-
 \paragraph{Date:}March 2006
 
 \paragraph{Project Summary:}
 
-Microarrays have become an indispensable tool for gene expression analysis with several different technologies offering a range of functionalites. The production of high-density oligonucleotide microarrays, in particular, poses a number of interesting computational problems. For instance, the shortest common supersequence (SCS), a classical computer science problem, arises during the production of \emph{in situ} synthesized probes. Another problem is posed by the design of the photolithographic masks used in the chemical synthesis of the probes. The aim of this project is analyze some of these problems, building models and designing new algorithms with ultimate goal of improving the quality of final product.
+Microarrays have become an indispensable tool for gene expression analysis with several different technologies offering a range of functionalites. The production of high-density oligonucleotide microarrays, in particular, poses a number of interesting computational problems. For instance, the shortest common supersequence (SCS), a classical computer science problem, arises during the production of \emph{in situ} synthesized probes. Another problem is posed by the design of the photolithographic masks used during the chemical synthesis of the polynucleotides, where the aim is to reduce the conflicts between neighboring probes. This is known as the placement problem. The post-placement optimization is a related issue that takes an initial placement and tries to reduce conflicts even further by re-designing the order in which the nucleotides are synthesized. The aim of this project is study problems related to the design and production of oligonucleotide microarrays, building models and proposing new algorithms with ultimate goal of improving the quality of final product.
 
 \section*{Project Plan: Previous Year}
 
@@ -63,31 +61,38 @@ In the next year we plan to further investigate the potential of modelling the l
 \section*{Project Plan: Next Year}
 
 \begin{itemize}
-\item \emph{Feb 27th - Mar 15th:} Further investigate the potential of modelling the layout problem as a QAP by comparing the results produced by the GRASP algorithm with existing placers and write a paper with the results to ECCB 2006;
-\item \emph{March 15th - mid Apr:} Implement a new partitioning algorithm and write a paper comparing all exising partitioning approaches to WABI 2006;
-\item \emph{Mid Apr - May 15th:} Prepare and submit a short paper on the evaluation of Affymetrix microarrays to GCB 2006 and prepare a poster abstract for the ISMB 2006 to present either the results on QAP/GRASP or the new partitioning algorithm;
-\item \emph{Late Jul - Aug 4th:} Prepare the ISMB 2006 poster.
+\item {\bf Feb 27th - Mar 15th:} Further investigate the potential of modelling the layout problem as a QAP by comparing the results produced by the GRASP algorithm with existing placers and write a paper with the results to ECCB 2006;
+\item {\bf March 15th - mid Apr:} Implement a new partitioning algorithm and write a paper comparing all exising partitioning approaches to WABI 2006;
+\item {\bf Mid Apr - May 15th:} Prepare and submit a short paper on the evaluation of Affymetrix microarrays to GCB 2006 and prepare a poster abstract for ISMB 2006 to present either the results on QAP/GRASP or the new partitioning algorithm;
+\item {\bf May 15th - Late Jul:} Evaluate other placement algorithms and further ideas that may arise from the work on QAP and the new partitioning algorithm; start planning the thesis;
+\item {\bf Late Jul - Aug 4th:} Prepare poster for ISMB 2006;
+\item {\bf Aug 6th - Aug 10th:} Attend ISMB 2006;
+\item {\bf Aug 11th - Aug 23rd:} Vacation;
+\item {\bf Aug 24th - Late Dec:} Write and submit thesis.
 \end{itemize}
 
 \section*{List of Lectures and Seminars}
 
-\begin{tabular}{|c|l|l|}	\hline
-SS 2004		& Prof. Dr. J. Stoye	& Bioinformatics Journal Club		\\ \cline{2-3}
-		& Prof. Dr. J. Stoye	& Advanced Topics in Bioinformatics and	\\
-		&			& Genome Research			\\ \cline{2-3}
-		& Dr. D. Evers		& Software Engineering: Making Programs	\\
-		&			& Fast					\\ \cline{2-3}
-		& Dr. D. Evers		& Algorithms for SNP-Analysis		\\
-		& Dr. S. Böecker	&					\\ \hline
-WS 2004/2005	& Dr. D. Evers		& Emerging Biotechnologies:		\\
-		& Dr. S. Böecker	& Bioinformatics of Tomorow		\\
-		& Dr. S. Rahmann	&					\\ \cline{2-3}
-		& Prof. Dr. J. Stoye	& Bioinformatics Journal Club		\\ \hline
-SS 2005		& Prof. Dr. R. Giegerich& Seminar GK Bioinformatik		\\ \cline{2-3}
-		& Prof. Dr. J. Stoye	& Arbeitsgruppenseminar Genominformatik	\\ \cline{2-3}
-		& Dr. Veli Makinen	& Data Compression Techniques		\\ \hline
-WS 2005/2006	& Dr. S. Rahmann	& Project: Optimization of Microarray 	\\
-		&			& Design 				\\ \hline
+\begin{tabular}{|c|l|l|r|} \hline
+Semester	& Organizers		& Name				& Credits \\ \hline \hline
+SS 2004		& Prof. Dr. J. Stoye	& Bioinformatics Journal Club	& 3 	\\ \cline{2-4}
+		& Prof. Dr. J. Stoye	& Advanced Topics in		& 3	\\
+		&			& Bioinformatics and Genome 	&	\\
+		&			& Research			&	\\ \cline{2-4}
+		& Dr. D. Evers		& Software Engineering: Making	& 3	\\
+		&			& Programs Fast			&	\\ \cline{2-4}
+		& Dr. D. Evers		& Algorithms for SNP-Analysis	& 3	\\
+		& Dr. S. B\"ocker	&				&	\\ \hline \hline
+WS 2004/2005	& Dr. D. Evers		& Emerging Biotechnologies:	& 3	\\
+		& Dr. S. B\"ocker	& Bioinformatics of Tomorow	&	\\
+		& Dr. S. Rahmann	&				&	\\ \cline{2-4}
+		& Prof. Dr. J. Stoye	& Bioinformatics Journal Club	& 3	\\ \hline \hline
+SS 2005		& Prof. Dr. R. Giegerich& Seminar GK Bioinformatik	& 3	\\ \cline{2-4}
+		& Prof. Dr. J. Stoye	& Arbeitsgruppenseminar		& 3	\\
+		&			& Genominformatik		&	\\ \cline{2-4}
+		& Dr. Veli M\"akinen	& Data Compression Techniques	& 6	\\ \hline \hline
+WS 2005/2006	& Dr. S. Rahmann	& Project: Optimization of 	& 9	\\
+		&			& Microarray Design		&	\\ \hline
 \end{tabular}
 
 \section*{Complete List of Publications}
